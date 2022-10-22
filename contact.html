@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+<style>
+.topnav {
+    top: 10px;
+    width: 90%;
+    position: absolute;
+    background-color: rgb(209, 211, 215);
+    overflow: hidden;
+    border-radius: 50px;
+}
+
+.topnav a {
+    transition: all 0.5s;
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: rgb(123, 111, 111);
+    color: white;
+}
+
+.topnav a.active {
+    background-color: #6D152B;
+    color: white;
+}
+
+.swing{
+    transition: all 0.5s;
+    width: 75%;
+    height: 600px;
+    background-color: aliceblue;
+    color: black;
+    top: 450px;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  .swing:hover{
+    filter: drop-shadow(15px 10px 0px #6b4f4f);
+    top:440px;
+  }
+</style>
+</head>
+<body>
+<div class="topnav">
+    <span><img src="4TCPrototype.png" width ="100px;" height = "44x;"></span>
+    <a class="active" href="/index">Home</a>
+    <a href="#news">News</a>
+    <a href="/contact">Contact</a>
+    <a href="#about">About</a>
+</div>
+<div class="swing"></div>
+</body>

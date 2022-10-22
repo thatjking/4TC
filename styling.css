@@ -8,13 +8,13 @@
 } */
 
 h1{
-    color: navy;
+    color: black;
     
 }
 
 .topnav {
     top: 10px;
-    width: 95%;
+    width: 90%;
     position: absolute;
     background-color: rgb(209, 211, 215);
     overflow: hidden;
@@ -34,11 +34,11 @@ h1{
 
 .topnav a:hover {
     background-color: rgb(123, 111, 111);
-    color: black;
+    color: white;
 }
 
 .topnav a.active {
-    background-color: #724dd6;
+    background-color: #6D152B;
     color: white;
 }
 
@@ -57,7 +57,7 @@ h1{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #8357eb;
+    background-color: #302a27;
     width: 100vw;
     height: 100vh;
   }
@@ -70,12 +70,11 @@ h1{
     text-align: center;
     color: transparent;
     font-family: "Meta", sans-serif;
-    text-shadow: 10px 10px 0px #07bccc,
-      15px 15px 0px #e601c0,
-      20px 20px 0px #e9019a,
-      25px 25px 0px #f40468,
-      45px 45px 10px #482896;
-    cursor: pointer;
+    text-shadow: 10px 10px 0px #DFAF5E,
+      15px 15px 0px #C2A887,
+      20px 20px 0px #61714D,
+      25px 25px 0px #8FAE93,
+      45px 45px 10px #6D152B;
     position: fixed;
     top: 10%;
   }
@@ -83,4 +82,22 @@ h1{
   main:hover {
     font-variation-settings: "wght" 100, "ital" 0;
     text-shadow: none;
+  }
+
+  .swing{
+    transition: all 0.5s;
+    width: 75%;
+    height: 600px;
+    background-color: aliceblue;
+    color: black;
+    top: 450px;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  .swing:hover{
+    filter: drop-shadow(15px 10px 0px #6b4f4f);
+    top:440px;
   }
