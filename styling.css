@@ -58,7 +58,7 @@ h1{
     justify-content: space-evenly;
     align-items: center;
     background-color: #302a27;
-    width: 100vw;
+    width: 98vw;
     height: 100vh;
   }
   
@@ -87,7 +87,7 @@ h1{
   .swing{
     transition: all 0.5s;
     width: 75%;
-    height: 600px;
+    height: 1200px;
     background-color: aliceblue;
     color: black;
     top: 450px;
@@ -95,9 +95,55 @@ h1{
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 5px;
     text-align: center;
+    margin-bottom: 20px;
   }
 
   .swing:hover{
     filter: drop-shadow(15px 10px 0px #6b4f4f);
     top:440px;
   }
+
+  .block{
+    transition: all 0.5s;
+    width: 300px;
+    height: 350px;
+    background-color: #C2A887;
+    color: white;
+    top: 20px;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    margin: 20px;
+  }
+
+  .block:hover{
+    filter: drop-shadow(0px 15px 0px #6b4f4f);
+    top:15px;
+  }
+
+  /* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #6D152B;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #DFAF5E;
+}
+
+.productHeader{
+  color: white;
+  filter: drop-shadow(3px 3px 0px #6b4f4f);
+}
